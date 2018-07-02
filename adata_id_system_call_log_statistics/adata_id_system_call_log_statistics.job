@@ -1,0 +1,4 @@
+#adata_id_system_call_log_statistics
+type=command
+command=hive -f ./run.sql
+dependencies=fdata_id_system_call_log

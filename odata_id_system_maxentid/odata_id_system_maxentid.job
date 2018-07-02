@@ -1,0 +1,3 @@
+#odata_id_system_maxentid
+type=command
+command=python ./run.py  ${azkaban.flow.start.timestamp}

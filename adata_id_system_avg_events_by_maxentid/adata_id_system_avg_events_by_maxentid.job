@@ -1,0 +1,4 @@
+#adata_id_system_avg_events_by_maxentid.job
+type=command
+command=python ./run.py ${azkaban.flow.start.timestamp}
+dependencies=fdata_id_system_maxentid

@@ -1,0 +1,3 @@
+#fdata_id_label.job
+type=command
+command=hive -f ./create_table.sql

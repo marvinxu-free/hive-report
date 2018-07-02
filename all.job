@@ -1,0 +1,4 @@
+#all.job
+type=command
+command= echo ok
+dependencies=adata_customer_upload,adata_id_system_call_log,adata_id_system_call_log_statistics,adata_id_system_avg_events_by_maxentid,adata_id_system_events_by_maxentid

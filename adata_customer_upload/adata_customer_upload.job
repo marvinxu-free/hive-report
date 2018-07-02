@@ -1,0 +1,4 @@
+#adata_customer_upload
+type=command
+command=python ./run.py ${azkaban.flow.start.timestamp}
+dependencies=fdata_id_system_maxentid

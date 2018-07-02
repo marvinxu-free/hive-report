@@ -1,0 +1,4 @@
+#fdata_id_system_maxentid
+type=command
+command=python ./run.py  ${azkaban.flow.start.timestamp}
+dependencies=odata_id_system_maxentid

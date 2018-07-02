@@ -1,0 +1,3 @@
+#odata_id_label
+type=command
+command=hive -f ./run.sql
